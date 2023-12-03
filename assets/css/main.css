@@ -682,7 +682,6 @@ section {
   font-size: 13px;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -712,7 +711,7 @@ section {
 }
 
 #hero .carousel-item::before {
-  content: "";
+  content: '';
   background-color: rgba(30, 35, 40, 0.6);
 }
 
@@ -813,7 +812,7 @@ section {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -848,7 +847,6 @@ section {
 }
 
 @media (min-width: 1024px) {
-
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -861,6 +859,29 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Fixed Right site Social Links
+--------------------------------------------------------------*/
+.Fixed-Right {
+  position: fixed;
+  left: 20px;
+  bottom: 70px;
+  z-index: 99999999999;
+}
+
+.right-social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-social-links a {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  color: var(--contrast-color);
+  font-weight: 600;
+  font-size: 16px;
+}
 
 /* Clients Section - Home Page
 ------------------------------*/
