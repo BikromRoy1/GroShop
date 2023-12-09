@@ -566,17 +566,24 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  --background-color: #f4f4f4;
+  --background-color: #2c5f4e;
   color: var(--default-color);
   background-color: var(--background-color);
+  color: var(--contrast-color);
   font-size: 14px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .footer .footer-top {
   padding-top: 50px;
+  padding-bottom: 15px;
 }
-
+.footer .footer-about h3 {
+  color: var(--contrast-color);
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
 .footer .footer-about .logo {
   line-height: 0;
   margin-bottom: 25px;
@@ -596,6 +603,7 @@ section {
 }
 
 .footer .footer-about p {
+  padding-top: 10px;
   font-size: 14px;
   font-family: var(--heading-font);
 }
@@ -609,19 +617,21 @@ section {
   border-radius: 50%;
   border: 1px solid rgba(var(--default-color-rgb), 0.5);
   font-size: 16px;
-  color: rgba(var(--default-color-rgb), 0.5);
+  color: var(--contrast-color);
   margin-right: 10px;
   transition: 0.3s;
+  background: #202b34;
 }
 
 .footer .social-links a:hover {
-  color: var(--primary-color);
+  color: var(--contrast-color);
+  background: var(--primary-color);
   border-color: var(--primary-color);
 }
 
 .footer h4 {
-  color: var(--secondary-color);
-  font-size: 16px;
+  color: var(--contrast-color);
+  font-size: 22px;
   font-weight: bold;
   position: relative;
   padding-bottom: 12px;
@@ -641,12 +651,15 @@ section {
   padding-right: 2px;
   font-size: 12px;
   line-height: 0;
+  color: var(--text-secondary-color);
 }
 
 .footer .footer-links ul li {
   padding: 10px 0;
   display: flex;
   align-items: center;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .footer .footer-links ul li:first-child {
@@ -654,7 +667,7 @@ section {
 }
 
 .footer .footer-links ul a {
-  color: rgba(var(--default-color-rgb), 0.8);
+  color: #749790;
   display: inline-block;
   line-height: 1;
 }
@@ -667,19 +680,37 @@ section {
   margin-bottom: 5px;
 }
 
-.footer .copyright {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  background-color: rgba(var(--default-color-rgb), 0.05);
+.footer .footer-blog .footer-blogs-items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 20px;
 }
-
+.footer .footer-blog .footer-blogs-items .blogs-image img {
+  width: 200px;
+  border-radius: 6px;
+}
+.footer .footer-blog .footer-blogs-items .blogs-content p {
+  font-weight: 500;
+}
+.footer .footer-blog .footer-blogs-items .blogs-content h6 {
+  font-weight: 600;
+}
+.footer .footer-bottom {
+  border-top: 2px solid #227358;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .footer .copyright p {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 600;
 }
-
-.footer .credits {
-  margin-top: 6px;
-  font-size: 13px;
+.footer .condition h5 {
+  margin-bottom: 0px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
@@ -919,7 +950,7 @@ section {
   font-size: 17px;
   padding-bottom: 6px;
 }
-.about-us .about-btn{
+.about-us .about-btn {
   margin-top: 30px;
 }
 .about-us .about-btn a {
