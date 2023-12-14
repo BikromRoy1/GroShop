@@ -2048,11 +2048,96 @@ section {
 #testimonials .testimonials-container {
   background: var(--contrast-color);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  padding: 30px;
+  padding: 60px 30px;
+  position: relative;
+  z-index: 2;
+}
+#testimonials .testimonials-items p {
+  color: var(--text-secondary-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+#testimonials .testimonials-items .coutomer-info {
+  text-align: center;
+  padding-top: 15px;
+}
+#testimonials .testimonials-items .coutomer-info img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #d1d0d0;
+}
+#testimonials .testimonials-items .coutomer-info h4 {
+  padding-top: 10px;
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #ddd;
+  opacity: 0.5;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Team image  Section
+--------------------------------------------------------------*/
+#team-overlady-image {
+  background-image: url(/assets/img/slide/Team-banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 400px;
+  padding-bottom: 250px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -360px;
+  margin-top: -280px;
+}
+#team-overlady-image::before {
+  content: '';
+  background: rgba(43, 95, 78, 0.8);
+
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#team-overlady-image .Team-light-title h1 {
+  font-size: 150px;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #d1d0d0;
+  opacity: 0.2;
 }
 /*--------------------------------------------------------------
 # Team section
 --------------------------------------------------------------*/
+#team .team-container {
+  position: relative;
+  z-index: 2;
+}
+
 #team .Team-title h4 {
   color: var(--primary-color);
   font-size: 20px;
@@ -2061,7 +2146,7 @@ section {
   line-height: 26px;
 }
 #team .Team-title h2 {
-  color: var(--text-primary-color);
+  color: var(--contrast-color);
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
