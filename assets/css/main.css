@@ -2042,8 +2042,62 @@ section {
 .blog .pagination li:hover a {
   color: var(--contrast-color);
 }
-
-
+/*--------------------------------------------------------------
+# Why choose us Section
+--------------------------------------------------------------*/
+#whychoose {
+  overflow: hidden;
+  position: relative;
+}
+#whychoose .whychoose-info h5 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 26px;
+}
+#whychoose .whychoose-info h3 {
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+#whychoose .whychoose-info p {
+  color: var(--text-secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+#whychoose .whychoose-info .whychoose-btn {
+  margin-top: 30px;
+}
+#whychoose .whychoose-info .whychoose-btn a {
+  background: #2c5f4e;
+  color: var(--contrast-color);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+#whychoose .whychoose-info ul li {
+  color: var(--text-primary-color);
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 6px;
+}
+#whychoose .whychoose-image {
+  text-align: right;
+  position: absolute;
+  bottom: -120px;
+  right: 0;
+}
+#whychoose .certified {
+  width: 180px;
+}
+#whychoose .whychoose-image img {
+  transform: rotate(324deg);
+  width: 500px;
+}
 /*--------------------------------------------------------------
 # Trusted Partner Section
 --------------------------------------------------------------*/
@@ -2054,7 +2108,7 @@ section {
 #TrustedPartner .TrustedPartner-title h2 {
   font-size: 150px;
   position: absolute;
-  top: 30px;
+  top: 20px;
   right: 10px;
   font-weight: 700;
   -webkit-text-fill-color: transparent;
