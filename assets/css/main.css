@@ -2042,6 +2042,79 @@ section {
 .blog .pagination li:hover a {
   color: var(--contrast-color);
 }
+
+
+/*--------------------------------------------------------------
+# Trusted Partner Section
+--------------------------------------------------------------*/
+#TrustedPartner {
+  padding-top: 140px;
+  position: relative;
+}
+#TrustedPartner .TrustedPartner-title h2 {
+  font-size: 150px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-weight: 700;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #7c8089;
+  opacity: 0.2;
+  text-transform: uppercase;
+  font-family: 'Open Sans', 'Helvetica Neue';
+}
+
+#TrustedPartner .TrustedPartner-items {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  border-radius: 6px;
+  background: #ffffff;
+  transition: 0.5s;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+#TrustedPartner .TrustedPartner-items img {
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+#TrustedPartner .TrustedPartner-items img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+#TrustedPartner .TrustedPartner-info h5 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 26px;
+}
+#TrustedPartner .TrustedPartner-info h3 {
+  color: var(--text-primary-color);
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+#TrustedPartner .TrustedPartner-info p {
+  color: var(--text-secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+#TrustedPartner .TrustedPartner-info .TrustedPartner-btn {
+  margin-top: 30px;
+}
+#TrustedPartner .TrustedPartner-info .TrustedPartner-btn a {
+  background: #2c5f4e;
+  color: var(--contrast-color);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+
 /*--------------------------------------------------------------
 # Customer Feedback Section
 --------------------------------------------------------------*/
@@ -2129,6 +2202,7 @@ section {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #d1d0d0;
   opacity: 0.2;
+  font-family: 'Open Sans', 'Helvetica Neue';
 }
 /*--------------------------------------------------------------
 # Team section
