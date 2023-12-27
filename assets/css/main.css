@@ -1118,6 +1118,97 @@ section {
   border-radius: 6px;
   padding: 12px 20px;
 }
+/*--------------------------------------------------------------
+# Service Section
+--------------------------------------------------------------*/
+#service {
+  background: #2c5f4e;
+}
+.service .service-title h5 {
+  color: var(--contrast-color);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.service .service-title h3 {
+  color: var(--contrast-color);
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+.service .service-info p {
+  color: var(--contrast-color);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+}
+/*--------------------------------------------------------------
+# Services Cards Section
+--------------------------------------------------------------*/
+.service-card .service-item {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.service-card .service-item .post-img img {
+  transition: 0.5s;
+}
+
+.service-card .service-item .post-content {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.service-card .service-item .post-content p {
+  color: var(--text-secondary-color);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+.service-card .service-item .post-title {
+  font-size: 24px;
+  color: var(--text-primary-color);
+  font-weight: 700;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+.service-card .service-item .meta i {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.service-card .service-item .meta span {
+  font-size: 15px;
+  color: #838893;
+}
+
+.service-card .service-item .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  color: #838893;
+}
+
+.service-card .service-item .readmore i {
+  line-height: 0;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.service-card .service-item:hover .post-title,
+.service-card .service-item:hover .readmore {
+  color: var(--primary-color);
+}
+
+.service-card .service-item:hover .post-img img {
+  transform: scale(1.1);
+}
 
 /*--------------------------------------------------------------
 # Call-to-action Section Section
