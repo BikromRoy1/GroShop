@@ -157,10 +157,10 @@
   });
 
   /**
-   * Initiate portfolio lightbox
+   * Initiate glightbox
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox',
+  const glightbox = GLightbox({
+    selector: '.glightbox',
   });
 
   /**
